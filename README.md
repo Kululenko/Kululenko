@@ -8,6 +8,8 @@ Ich suche eine Festanstellung in Hamburg oder remote.
 
 ## Öffentlich einsehbar
 
+**[ai-gift-advisor](https://github.com/Kululenko/ai-gift-advisor)** zeigt einen Auszug aus dem KI-Geschenkefinder: strukturiertes Suchprofil, geprüfte Katalogauswahl und Tests. Die lokale Demo simuliert die Modellantwort und verwendet erfundene Produkte.
+
 **[zodiacally-ephemeris](https://github.com/Kululenko/zodiacally-ephemeris)** ist eine Ephemeride für Astrologie-Software in reinem JavaScript, gebaut auf den NASA/JPL-Daten DE440. Das Repository enthält einen Benchmark gegen die Swiss Ephemeris, den jeder selbst nachrechnen kann:
 
 - Sonne weicht um höchstens 3,0 Millibogensekunden ab, der Mond um höchstens 8,7.
