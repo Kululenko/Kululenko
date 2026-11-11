@@ -8,8 +8,6 @@ Ich suche eine Festanstellung in Hamburg oder remote.
 
 ## Öffentlich einsehbar
 
-**[ai-gift-advisor](https://github.com/Kululenko/ai-gift-advisor)** zeigt einen Auszug aus dem KI-Geschenkefinder: strukturiertes Suchprofil, geprüfte Katalogauswahl und Tests. Die lokale Demo simuliert die Modellantwort und verwendet erfundene Produkte.
-
 **[zodiacally-ephemeris](https://github.com/Kululenko/zodiacally-ephemeris)** ist eine Ephemeride für Astrologie-Software in reinem JavaScript, gebaut auf den NASA/JPL-Daten DE440. Das Repository enthält einen Benchmark gegen die Swiss Ephemeris, den jeder selbst nachrechnen kann:
 
 - Sonne weicht um höchstens 3,0 Millibogensekunden ab, der Mond um höchstens 8,7.
@@ -43,5 +41,3 @@ Die Engine läuft seit Oktober 2026 in [zodiacally.com](https://zodiacally.com).
 Die meisten meiner Repositories sind privat. Ich zeige sie gern im Gespräch.
 
 Code entsteht bei mir über Agenten. Lesen, prüfen und Fehler eingrenzen kann ich selbst. Meine Grundlagen in Python, Django und SQL stammen aus einer einjährigen Vollzeit-Weiterbildung am Digital Career Institute. Die älteren öffentlichen Repositories hier sind Übungen aus dieser Zeit.
-
-Meine Romane erscheinen unter dem Autorennamen Aleks Kavalenko.
