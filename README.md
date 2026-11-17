@@ -4,6 +4,8 @@ AI Developer aus Hamburg. Ich baue Software-Produkte mit Coding-Agenten (Claude 
 
 Ich suche eine Festanstellung in Hamburg, vor Ort, hybrid oder remote.
 
+Portfolio mit Fallstudien zu allen Projekten: **[aleksparamonov.de](https://aleksparamonov.de)**
+
 > In English: I build software products with coding agents and ship only what passes tests. Based in Hamburg, looking for a permanent role on site, hybrid or remote.
 
 ## Öffentlich einsehbar
