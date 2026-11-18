@@ -1,12 +1,12 @@
 # Aleks Paramonov
 
-AI Developer aus Hamburg. Ich baue Software-Produkte mit Coding-Agenten (Claude Code, Codex) und nehme nur ab, was die Tests bestanden hat.
+AI Developer aus Hamburg. Ich baue Software-Produkte mit Coding-Agenten (Claude Code, Codex). Ich plane, Agenten bauen, ich reviewe.
 
 Ich suche eine Festanstellung in Hamburg, vor Ort, hybrid oder remote.
 
 Portfolio mit Fallstudien zu allen Projekten: **[aleksparamonov.de](https://aleksparamonov.de)**
 
-> In English: I build software products with coding agents and ship only what passes tests. Based in Hamburg, looking for a permanent role on site, hybrid or remote.
+> In English: I build software products with coding agents. I plan, agents build, I review. Based in Hamburg, looking for a permanent role on site, hybrid or remote.
 
 ## Öffentlich einsehbar
 
@@ -30,17 +30,24 @@ Die Engine läuft seit Oktober 2026 auf [zodiacally.com](https://www.zodiacally.
 
 Dazu ein Hörbuch-Shop mit Stripe-Bezahlung und befristeten Download-Links, live seit 10/2026.
 
+## YouTube
+
+Zwei deutschsprachige Kanäle, deren Folgen KI-Agenten produzieren. Die Stimmen sind KI-Stimmen (ElevenLabs), das steht in den Beschreibungen.
+
+- **[True Crime Mystery Horror Hörbücher](https://www.youtube.com/@truecrimemysteryDE)**: lange Hörgeschichten, meist knapp eine Stunde. Skript, Stimme, Bilder, Schnitt in DaVinci Resolve über einen MCP-Server (Community-Projekt, von mir eingerichtet und unter Windows repariert) und die Prüfung der fertigen Datei übernehmen Agenten. Ich nehme Geschichte und Titelbild ab und gebe den Upload frei.
+- **[Zodiacally – Astrologie verstehen](https://www.youtube.com/@ZodiacallyDE)**: Erklärvideos zur Astrologie. Ein geplanter Lauf arbeitet jeden Tag ohne Rückfragen: Recherche mit Quellen, Skript, Stimme, Animation als Code (HyperFrames), Prüfung, Titelbild und Upload. Veröffentlicht wird nie sofort, nur zu einem festen Termin.
+
 ## Weitere Projekte
 
 - **Outava** ist eine Event-App für Hamburg (Flutter, Supabase), gemeinsam mit einem Geschäftspartner. Mein Teil ist die gesamte Technik. Der Import verarbeitet rund 50.000 Termine je Lauf und überspringt unveränderte Termine (altes Verfahren 97 Minuten, neues im Folgelauf 29 Minuten). Die Suche umfasste im September 2026 rund 59.000 Veranstaltungen, mehr als ein einzelner Import, weil der vorhandene Bestand dazugehört. Dazu kommen über 2.500 automatisierte Tests (Stand 22.10.2026). Stand: Testversion, noch nicht im Store, letzter Stand 10/2026.
 - **Afuku** ist ein Actionspiel für den PC in Unreal Engine 5, das ich mit einem zweiten Entwickler baue. Agenten arbeiten dort über MCP-Server direkt in Blender und Unreal.
+- **Agenten-Orchestrierung** (in Arbeit): Mein Ziel ist eine Zentrale, mit der ich spreche und die alle Aufgaben verteilt. Fertig ist sie noch nicht. Bisher sind es einzelne Abläufe je Projekt, die ich im Chat mit Codex und Claude steuere, meist per Diktat. Zu mir kommt nur, was mich braucht: Die Abläufe melden sich per Telegram bei Fehlern oder mit einer Vorschau. Einen ersten Aufbau mit 35 Rollen für acht Projekte habe ich am 05.10.2026 angehalten: Rund 200 von 286 Aufgaben waren Prüfen, Planen und Weiterleiten. Ab dem 09.10.2026 lief für Zodiacally ein kleinerer Aufbau: Feste Abläufe schreiben Artikel und X-Posts, Prüfskripte entscheiden, was live geht. Den Artikel-Teil habe ich am 30.10.2026 pausiert.
 
 ## So arbeite ich
 
 - Architektur, Datenmodell und Abnahmekriterien lege ich fest. Den Code schreiben Agenten nach Regeln, die als `AGENTS.md` im Repository liegen.
-- Was die KI liefert, ist ein Entwurf. Zodiacally hat über 4.000 automatisierte Tests, Outava über 2.500 (Stand Oktober 2026). Im letzten vollen Lauf der Zodiacally-App fielen 9 von 3.056 Tests durch: 6 erwarteten noch den früheren Kaufablauf, 2 scheiterten an Zeilenenden einer Datendatei, 1 an einer zu engen Bildgrenze unter Windows. Die gezielten Nachtests bestanden.
+- Was die KI an Code liefert, ist ein Entwurf. Ich reviewe ihn, bevor er online geht. Automatisierte Tests gehören dazu: Zodiacally hat über 4.000, Outava über 2.500 (Stand Oktober 2026).
 - Sprachmodelle setze ich für Sprache ein: Absichten aus Text lesen und Texte schreiben. Auswahl, Preise, Berechnungen und Links kommen aus Code und Daten.
-- Ich weiß auch, wann Agenten zu viel sind. Einen Aufbau mit 35 Rollen habe ich betrieben, angehalten und auswerten lassen: Von 286 Aufgaben waren rund 200 keine Arbeit am Produkt. Ergebnis ist ein Plan für zwei Agenten und ein Skript. Er ist noch nicht umgesetzt.
 
 ## Zur Einordnung
 
